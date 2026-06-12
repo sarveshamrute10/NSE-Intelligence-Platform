@@ -148,4 +148,4 @@ if __name__ == "__main__":
     print(f"Targeting Processing Window: {start_backfill.strftime('%Y-%m-%d')} -> {end_backfill.strftime('%Y-%m-%d')}\n")
     
     download_and_land_bhavcopy(start_backfill, end_backfill)
-    print("\nPhase 1 Resumable Ingestion Loop Completeed Successfully.")
+    print("\nPhase 1 Resumable Ingestion Loop Completed Successfully.")
