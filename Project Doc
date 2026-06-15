@@ -1,0 +1,9 @@
+NSE India Market Intelligence Platform - Azure Databricks Lakehouse - Link 2026
+• Engineered end-to-end Medallion architecture pipelines in Azure Databricks utilizing Auto Loader to incrementally ingest
+15M+ historical NSE Bhavcopy and trading session data files from ADLS Gen2, slashing data processing latency by 50%.
+• Implemented automated schema evolution, constraint validation, and quality-gate enforcement routines between the Bronze
+and Silver Delta layers to detect and isolate outliers or corrupt trading volume records.
+• Optimized downstream query efficiency by 3x by implementing Z-Order and liquid clustering inside Databricks notebooks.
+• Orchestrated the pipeline using Apache Airflow, implementing retry mechanisms, XCom parameters, and Slack notifications.
+• Built an Airflow-connected MCP (Model Context Protocol) server to expose pipeline metadata and log tools directly to Claude
+Desktop, eliminating manual log hunting during runtime failures.
